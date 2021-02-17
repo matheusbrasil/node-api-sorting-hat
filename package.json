@@ -1,0 +1,14 @@
+{
+  "name": "sortinghat",
+  "version": "1.0.0",
+  "description": "The Sorting Hat will decide which Hogwarts House you should go.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matheus Brasil",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
