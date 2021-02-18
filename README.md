@@ -15,7 +15,7 @@ Simple API to study Nodejs and Cloud
 
 |Name|Image|
 |----|-----|
-| Gryffindor | ![Gryffindor_Crest](./images/Gryffindor_Crest.jpg)|
-| Hufflepuff | ![Hufflepuff_Crest](./images/Hufflepuff_Crest.jpg)|
-| Ravenclaw | ![Ravenclaw_Crest](./images/Ravenclaw_Crest.jpg)|
-| Slytherin | ![Slytherin_Crest](./images/Slytherin_Crest.jpg)|
+| Gryffindor | ![Gryffindor_Crest](./public/images/Gryffindor_Crest.jpg)|
+| Hufflepuff | ![Hufflepuff_Crest](./public/images/Hufflepuff_Crest.jpg)|
+| Ravenclaw | ![Ravenclaw_Crest](./public/images/Ravenclaw_Crest.jpg)|
+| Slytherin | ![Slytherin_Crest](./public/images/Slytherin_Crest.jpg)|

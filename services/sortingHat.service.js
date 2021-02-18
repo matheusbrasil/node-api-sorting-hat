@@ -1,4 +1,5 @@
 const express = require('express')
+var path = require('path')
 
 class Houses{
     constructor(houseName, houseDescription, notableMembers,imageLink) {
@@ -26,7 +27,7 @@ module.exports = {
                     'Hermione Granger',
                     'Ron Weasley'
                 ],
-                'https://static.wikia.nocookie.net/harrypotter/images/e/ee/Gryffindor_Crest-0.jpg'
+                new URL(req.protocol + "://" + req.get("host") + "/images/Gryffindor_Crest.jpg")
                 ),
             new Houses(
                 'Hufflepuff',
@@ -36,7 +37,7 @@ module.exports = {
                     'Cedric Diggory',
                     'Nymphadora Tonks'
                 ],
-                'https://static.wikia.nocookie.net/harrypotter/images/d/da/Hufflepuff_House_Crest_old.jpg'
+                new URL(req.protocol + "://" + req.get("host") + "/images/Hufflepuff_Crest.jpg")
             ),
             new Houses(
                 'Ravenclaw',
@@ -46,7 +47,7 @@ module.exports = {
                     'Gilderoy Lockhart',
                     'Filius Flitwick'
                 ],
-                'https://static.wikia.nocookie.net/harrypotter/images/7/77/Ravenclaw_House_Crest.jpg'
+                new URL(req.protocol + "://" + req.get("host") + "/images/Ravenclaw_Crest.jpg")
             ),
             new Houses(
                 'Slytherin',
@@ -56,9 +57,11 @@ module.exports = {
                     'Draco Malfoy',
                     '(rather unfortunately) Lord Voldemort'
                 ],
-                'https://static.wikia.nocookie.net/harrypotter/images/7/71/Slytherin_crest_old.jpg'
+                new URL(req.protocol + "://" + req.get("host") + "/images/Slytherin_Crest.jpg")
             )
         ];
+
+        //console.dir(req.protocol + '://' + req.get('host') + req.originalUrl);
 
         return res.status(200).json({ sortingHat: hogwartsHouses[getRandomInt(0,3)] })
     }
