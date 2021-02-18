@@ -18,6 +18,7 @@ function getRandomInt(min, max){
 
 module.exports = {
     sortingHat: (req, res) => {
+        // Returns a random House
         var hogwartsHouses = [
             new Houses(
                 'Gryffindor',

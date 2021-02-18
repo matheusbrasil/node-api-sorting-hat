@@ -13,6 +13,8 @@ Simple API to study Nodejs and Cloud
 
 ### Images
 
+#### Hogwarts Houses
+
 |Name|Image|
 |----|-----|
 | Gryffindor | ![Gryffindor_Crest](./public/images/Gryffindor_Crest.jpg)|
