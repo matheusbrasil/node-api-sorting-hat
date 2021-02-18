@@ -1,10 +1,11 @@
 const express = require('express')
 
 class Houses{
-    constructor(houseName, houseDescription, notableMembers) {
+    constructor(houseName, houseDescription, notableMembers,imageLink) {
         this.houseName = houseName;
         this.houseDescription = houseDescription;
         this.notableMembers = notableMembers;
+        this.imageLink = imageLink;
     }
 }
 
@@ -24,7 +25,8 @@ module.exports = {
                     'Harry Potter',
                     'Hermione Granger',
                     'Ron Weasley'
-                ]
+                ],
+                'https://static.wikia.nocookie.net/harrypotter/images/e/ee/Gryffindor_Crest-0.jpg'
                 ),
             new Houses(
                 'Hufflepuff',
@@ -33,7 +35,8 @@ module.exports = {
                     'Newt Scamander',
                     'Cedric Diggory',
                     'Nymphadora Tonks'
-                ]
+                ],
+                'https://static.wikia.nocookie.net/harrypotter/images/d/da/Hufflepuff_House_Crest_old.jpg'
             ),
             new Houses(
                 'Ravenclaw',
@@ -42,7 +45,8 @@ module.exports = {
                     'Luna Lovegood',
                     'Gilderoy Lockhart',
                     'Filius Flitwick'
-                ]
+                ],
+                'https://static.wikia.nocookie.net/harrypotter/images/7/77/Ravenclaw_House_Crest.jpg'
             ),
             new Houses(
                 'Slytherin',
@@ -51,7 +55,8 @@ module.exports = {
                     'Severus Snape',
                     'Draco Malfoy',
                     '(rather unfortunately) Lord Voldemort'
-                ]
+                ],
+                'https://static.wikia.nocookie.net/harrypotter/images/7/71/Slytherin_crest_old.jpg'
             )
         ];
 
