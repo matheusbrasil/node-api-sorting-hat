@@ -2,7 +2,10 @@
 
 ## About
 
-Simple API to study Nodejs and SAP Cloud
+Simple API to study Nodejs and SAP Cloud.  
+The purpose of this API is to simulate the Sorting Hat. For each API call, it returns a Hogwarts house.
+
+## [Try it.](https://sap-cp-cf-sortinghat-bold-waterbuck-sf.cfapps.eu10.hana.ondemand.com/sortingHat)
 
 ### Links
 
