@@ -1,0 +1,42 @@
+[
+    {
+        "houseName" : "Gryffindor",
+        "houseDescription" : "You might belong in Gryffindor, Where dwell the brave at heart, Their daring, nerve and chivalry Set Gryffindors apart.",
+        "notableMembers" : [
+                                "Harry Potter",
+                                "Hermione Granger",
+                                "Ron Weasley"
+                            ],
+        "imageLink" : "/images/Gryffindor_Crest.jpg"
+    },
+    {
+        "houseName" : "Hufflepuff",
+        "houseDescription" : "You might belong in Hufflepuff Where they are just and loyal Those patient Hufflepuffs are true And unafraid of toil.",
+        "notableMembers" : [
+                                "Newt Scamander",
+                                "Cedric Diggory",
+                                "Nymphadora Tonks"
+                            ],
+        "imageLink" : "/images/Hufflepuff_Crest.jpg"
+    },
+    {
+        "houseName" : "Ravenclaw",
+        "houseDescription" : "Or yet in wise old Ravenclaw If you’ve a ready mind Where those of wit and learning Will always find their kind.",
+        "notableMembers" : [
+                                "Luna Lovegood",
+                                "Gilderoy Lockhart",
+                                "Filius Flitwick"
+                            ],
+        "imageLink" : "/images/Ravenclaw_Crest.jpg"
+    },
+    {
+        "houseName" : "Slytherin",
+        "houseDescription" : "Or perhaps in Slytherin You’ll make your real friends Those cunning folk use any means To achieve their ends.",
+        "notableMembers" : [
+                                "Severus Snape",
+                                "Draco Malfoy",
+                                "(rather unfortunately) Lord Voldemort"
+                            ],
+        "imageLink" : "/images/Slytherin_Crest.jpg"
+    }
+]

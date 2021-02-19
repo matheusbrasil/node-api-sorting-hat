@@ -1,0 +1,6 @@
+---
+applications:
+- name: SAP-CP-CF-SortingHat
+  path: .
+  buildpack: nodejs_buildpack
+  memory: 128M
