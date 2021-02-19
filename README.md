@@ -2,7 +2,7 @@
 
 ## About
 
-Simple API to study Nodejs and Cloud
+Simple API to study Nodejs and SAP Cloud
 
 ### Links
 
@@ -10,6 +10,9 @@ Simple API to study Nodejs and Cloud
 2. [Express](http://expressjs.com/)
 3. [Markdown](https://www.markdownguide.org/)
 4. [Git Markdown](https://guides.github.com/features/mastering-markdown/)
+5. [CAP](https://cap.cloud.sap/docs/)
+6. [Cloud Foundry](https://docs.cloudfoundry.org/)
+7. [SAP Samples CF Hello World](https://github.com/SAP-samples/cloud-cf-helloworld-nodejs)
 
 ### Images
 
