@@ -7,6 +7,28 @@ The purpose of this API is to simulate the Sorting Hat. For each API call, it re
 
 ## [Try it.](https://sap-cp-cf-sortinghat-bold-waterbuck-sf.cfapps.eu10.hana.ondemand.com/sortingHat)
 
+### How run the app?
+
+On MacOS or Linux, run the app with this command:
+
+```console
+$ DEBUG=myapp:* npm start
+```
+
+On Windows Command Prompt, use this command:
+
+```console
+> set DEBUG=myapp:* & npm start
+```
+
+On Windows PowerShell, use this command:
+
+```console
+PS> $env:DEBUG='myapp:*'; npm start
+```
+
+Then load <http://localhost:3000/> in your browser to access the app.
+
 ### Links
 
 1. [Node.js](https://nodejs.org/en/)
